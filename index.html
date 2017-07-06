@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js      -->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <!--     <link rel="stylesheet" type="text/css" href="media-queries.css"> -->    
+    <!--     <link rel="stylesheet" type="text/css" href="media-queries.css"> -->
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoCBjQu06Dt5yGA4yDi-WaqwEpR4ZIZJg&callback=initMap">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -23,20 +23,28 @@
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <!--    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand scroll" href="#home">LEVENTEVMEK</a>
+                </button> -->
+                <a class="navbar-brand scroll" href="#home">Moked Ltd.</a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about" class="scroll">About</a></li>
+                    <li><a href="#management" class="scroll">Management</a></li>
+                    <li><a href="#customerList" class="scroll">Customer List</a></li>
+                    <li><a href="#productionQuality" class="scroll">Production & Quality</a></li>
+                    <li><a href="#products" class="scroll">Products</a></li>
+                    <li><a href="#contact" class="scroll">Contact Us</a></li>
+                    <!-- 
+
                     <li><a href="#home" class="scroll">HOME</a></li>
                     <li><a href="#about" class="scroll">ABOUT</a></li>
                     <li><a href="#portfolio" class="scroll">PORTFOLIO</a></li>
-                    <li><a href="#contact" class="scroll">CONTACT</a></li>
+                    <li><a href="#contact" class="scroll">CONTACT</a></li> -->
                 </ul>
             </div>
         </div>
@@ -46,8 +54,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>ZIPLINE</h1>
-                    <h5>BUILD A PERSONAL PORTFOLIO WEBPAGE</h5>
+                    <h1>MOKED Precision Instruments Ltd.</h1>
+                    <h5>Israel's leading subcontractor for aerospace parts.</h5>
                 </div>
             </div>
         </div>
@@ -57,89 +65,119 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-lg-7">
-                    <h1>ABOUT</h1>
-                    <p class="lead">Objective: Build a CodePen.io app that successfully reverse-engineers <a href="https://codepen.io/ThiagoFerreir4/full/eNMxEp" target="_blank">this <em class="fa fa-external-link"></em></a></p>
-                    <p><strong>Rule #1:</strong> Don't look at the example project's code on CodePen. Figure it out for yourself.</p>
-                    <p><strong>Rule #2:</strong> You may use whichever libraries or APIs you need.</p>
-                    <p><strong>Rule #3:</strong> Reverse engineer the example project's functionality, and also feel free to personalize it.</p>
-                    <p><strong>Hint:</strong> If you don't want to start from scratch, you can fork this simple Bootstrap portfolio template on <a href="https://codepen.io/FreeCodeCamp/pen/mJNqQj" target="_blank">CodePen <em class="fa fa-external-link"></em></a></p>
-                    <p>Here are the user stories you must enable, and optional bonus user stories:</p>
-                    <p><strong>User Story:</strong> As a user, I can access all of the portfolio webpage's content just by scrolling.</p>
-                    <p><strong>User Story:</strong> As a user, I can click different buttons that will take me to the portfolio creator's different social media pages.</p>
-                    <p><strong>User Story:</strong> As a user, I can see thumbnail images of different projects the portfolio creator has built (if you haven't built any websites before, use placeholders.)</p>
-                    <p><strong>Bonus User Story:</strong> As a user, I navigate to different sections of the webpage by clicking buttons in the navigation.</p>
-                    <p>Don't worry if you don't have anything to showcase on your portfolio yet - you will build several apps on the next few CodePen challenges, and can come back and update your portfolio later.</p>
-                    <p>There are many great portfolio templates out there, but for this challenge, you'll need to build a portfolio page yourself. Using Bootstrap will make this much easier for you.</p>
-                    <blockquote>
-                        <p>Remember to use
-                            <mark><em>Read-Search-Ask</em></mark> if you get stuck.</p>
-                    </blockquote>
-                    <p>When you are finished, click the <strong>"I've completed this challenge"</strong> button and include a link to your CodePen. If you pair programmed, you should also include the Free Code Camp username of your pair.</p>
+                    <h1>ABOUT MOKED</h1>
+                    <h3>MOKED is the leading subcontractor for aerospace parts in ISRAEL.</h3>
+                    <h3>Precision, quality, delivery and service from start to finished part, MOKED will turn your design concept into a successful product.</h3>
+                    <h3>MOKED prides itself for offering competitive prices, without compromising quality.</h3>
                 </div>
                 <div class="col-sm-4 col-lg-5 hidden-xs">
-                    <img src="https://s4.postimg.org/wzkxhfy59/lego_dimensions_patent.jpg" alt="" class="pull-right img-responsive">
+                    <img src="web-pictures/mokedThen.jpg" alt="mokedThen" class="pull-right img-responsive">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <h1>Typical systems in which our precision parts are assembled:</h1>
+                <div class="col-sm-6">
+                    <h3>Aerospace:</h3>
+                    <ul>
+                        <li>Aircraft Landing Systems </li>
+                        <li>Flight Safety Products & Systems </li>
+                        <li>Flight Control Systems </li>
+                        <li>Fluid Measurement Systems </li>
+                        <li>Hydraulic, Fuel and Pneumatic Systems </li>
+                        <li>Electronic Control Systems.</li>
+                        <li>Engine Controls </li>
+                        <li>Auxiliary Power Units</li>
+                        <li>Electro Optic & Electro Mechanic Systems </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Medical Devices:</h3>
+                    <ul>
+                        <li>MRI systems</li>
+                        <li>Orthopedic devices</li>
+                        <li>Spinal implants</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Brief History</h1>
+                    <h3>Established in 1958 by Mr. A.Eylon and Mr. D.Goffer. Moked personnel has more than 40 years of experience in the field of precision machining. As a pioneer of this industrial field in Israel, Moked has made an important contribution to the growth of this relatively young country's technology.</h3>
+                    <h3>In recent years the firm has expanded its activities, while maintaining its position as one of the leading manufacturers of high precision mechanical parts in Israel. Today the firm is managed by the second generation of owners. It has a consistent yearly growth rate of 20%, mainly through the production of aerospace parts for international companies.</h3>
                 </div>
             </div>
         </div>
     </div>
-    <!-- PORTFOLIO -->
-    <div id="portfolio" class="content-section">
+    <!-- MANAGEMENT -->
+    <div id="management" class="content-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
-                    <h1>PORTFOLIO</h1>
-                    <p class="lead">Below you'll find some of my recent work.</p>
+                    <h1>Ownership</h1>
+                    <h4>Moked is a private company owned by Mr. D.Goffer and Mr. A. Eylon.</h4>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
-                        <img src="https://placeimg.com/768/456/arch/grayscale" alt="Project Dummy">
-                        <div class="caption">
-                            <h4>Sample Project #1</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="web-pictures/aEylon.jpg" alt="aEylon" style="height: 120px; width: 120px;">
+                        <div class="caption text-center">
+                            <h4>Mr. A. Eylon - President</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
-                        <img src="https://placeimg.com/768/456/nature/grayscale" alt="Project Dummy">
-                        <div class="caption">
-                            <h4>Sample Project #2</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="web-pictures/dGoffer.jpg" alt="dGoffer" style="height: 120px; width: 120px;">
+                        <div class="caption text-center">
+                            <h4>Mr. D. Goffer - President</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
-                        <img src="https://placeimg.com/768/456/people/grayscale" alt="Project Dummy">
-                        <div class="caption">
-                            <h4>Sample Project #3</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="web-pictures/eGoffer.jpg" alt="eGoffer" style="height: 120px; width: 120px;">
+                        <div class="caption text-center">
+                            <h4>Eng. E. Goffer - Marketing Manager V.P.</h4>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4">
+                <div class="col-sm-6 col-md-6 col-lg-3">
                     <div class="thumbnail">
-                        <img src="https://placeimg.com/768/456/tech/grayscale" alt="Project Dummy">
-                        <div class="caption">
-                            <h4>Sample Project #4</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        <img src="web-pictures/dEylon.jpg" alt="dEylon" style="height: 120px; width: 120px;">
+                        <div class="caption text-center">
+                            <h4> Prod. Plan. & Q.A. Manager V.P.</h4>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="row text-center">
                 <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="https://placeimg.com/768/456/animals/grayscale" alt="Project Dummy">
-                        <div class="caption">
-                            <h4>Sample Project #5</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                        </div>
-                    </div>
+                    <h1>Management</h1>
+                    <ul style="list-style-type:none">
+                        <li>Mr. A. Eylon - President </li>
+                        <li>Mr. D. Goffer - President </li>
+                        <li>Eng. E. Goffer - Marketing Manager V.P. </li>
+                        <li>Eng. D. Eylon - Prod. Plan. & Q.A. Manager V.P. </li>
+                        <li>Eng. A. Kahana - Chief Engineer </li>
+                        <li>Mr. E. Yadidia - Production Manager </li>
+                        <li>Mr. A. Goldenshtein - Purchasing Manager </li>
+                    </ul>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h1>No. of Employees: 40</h1>
+                    <ul style="list-style-type:none">
+                        <li>26 operators & technicians</li>
+                        <li>4 engineering managers</li>
+                        <li>3 Q.C inspectors, 5 office employees</li>
+                        <li>2 workers in support services</li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
     <!-- CONTACT -->
-    <div id="contact" class="content-section">
+    <div id="customerList" class="content-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
