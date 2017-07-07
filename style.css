@@ -438,8 +438,8 @@ h6 {
 /*--- CONTACT ---*/
 
 #contact {
-    background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
-    background-size: cover;
+/*    background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
+*/    background-size: cover;
 }
 
 .social-cont {
@@ -543,4 +543,9 @@ footer {
     /*    padding-top: 1%;*/
     padding-bottom: 1%;
     font-size: 75%;
+}
+
+/*category backgrounds*/
+#management, #productionQuality, #contact{
+  background-color: grey;
 }
