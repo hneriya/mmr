@@ -11,20 +11,22 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+#management > div > div.row.text-center > div > ul > li {
     font-family: 'Avant Garde', serif;
     font-weight: 700;
     color: #1a1a1a;
 }
 
 .content-section {
-    min-height: 100vh;
-    padding-top: 70px;
+    /*    min-height: 100vh;
+*/
+    padding-top: 1%;
     padding-bottom: 20px;
 }
 
 .content-section h1 {
-    color: #9C9C9C;
+    color: #1a1a1a;
     font-weight: 400;
     font-size: 30px;
     display: inline-block;
@@ -67,7 +69,6 @@ h6 {
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     .content-section {
         padding-top: 0px;
-        min-height: 85vh;
     }
     .content-section h1 {
         font-size: 34px;
@@ -114,7 +115,8 @@ h6 {
 
 @media only screen and (max-width: 1800px) and (min-width: 1201px) {
     .content-section {
-        padding-top: 160px;
+        /*        padding-top: 160px;*/
+        /*        min-height: 100vh;*/
     }
     .content-section h1:after {
         padding-top: 7px;
@@ -164,11 +166,13 @@ h6 {
 .navbar-default .navbar-nav>li>a {
     color: #222;
     padding: 10px;
-    border-bottom: 1px solid #DFDFDF;
+    /*    border-bottom: 1px solid #DFDFDF;
+*/
 }
 
 .navbar-default .navbar-nav>li>a.selected {
-    color: #E64B36;
+    color: #5E94C3;
+    text-decoration: underline;
 }
 
 .navbar-default a.navbar-brand:hover .navbar-default .navbar-nav>li>a:hover {
@@ -176,7 +180,7 @@ h6 {
 }
 
 .navbar-default .navbar-brand:hover {
-    color: #E64B36;
+    color: #5E94C3;
 }
 
 
@@ -199,7 +203,7 @@ h6 {
     }
     .navbar-default .navbar-nav>li>a:hover {
         background-color: transparent;
-        color: #E64B36;
+        color: #5E94C3;
     }
     /*hanan added*/
     .navbar-fixed-bottom,
@@ -264,11 +268,16 @@ h6 {
   sunset-cloud-level
   tried/sunset-cloud-level
   */
-    background: url('pictures/wing-engine-right.jpg') no-repeat center center fixed;
+    background: url('pictures/wing-right.jpg') no-repeat center center fixed;
     background-size: cover;
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5);
     text-align: center;
 }
+
+
+/*#home .content-section{
+  min-height: 100vh;
+}*/
 
 #home h1 {
     font-family: 'Avant Garde', sans-serif;
@@ -287,22 +296,25 @@ h6 {
 
 #home h5 {
     font-size: 16px;
-    color: #555;
+    color: #1a1a1a;
 }
 
 
 /*@media screen and (min-width: 768px) {*/
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
+    #home {
+        min-height: 85vh;
+    }
     #home h1 {
         font-size: 55px;
         line-height: 60px;
-        margin-top: 110px;
+        margin-top: 140px;
     }
     #home h5 {
         font-size: 19px;
     }
-            legend {
+    legend {
         font-size: 20px;
     }
     address h3 {
@@ -325,7 +337,7 @@ h6 {
     #home h5 {
         font-size: 21px;
     }
-        legend {
+    legend {
         font-size: 20px;
     }
     address h3 {
@@ -341,6 +353,9 @@ h6 {
 /*@media screen and (min-width: 1200px) {*/
 
 @media only screen and (max-width: 1200px) and (min-width: 993px) {
+    #home {
+        min-height: 100vh;
+    }
     #home h1 {
         font-size: 142px;
         line-height: 124px;
@@ -362,12 +377,16 @@ h6 {
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1201px) {
+    #home {
+        min-height: 100vh;
+    }
     #home h1 {
         font-size: 142px;
         line-height: 124px;
+        margin-top: 25%;
     }
     #home h5 {
-        font-size: 24px;
+        font-size: 40px;
     }
 }
 
@@ -378,6 +397,8 @@ h6 {
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    background-color: inherit;
+    border: none;
 }
 
 .content-section .thumbnail * {
@@ -387,6 +408,7 @@ h6 {
 .content-section .thumbnail h4 {
     font-size: 19px;
     font-weight: 400;
+    font-family: 'Avant Garde', sans-serif;
 }
 
 .content-section .thumbnail p {
@@ -402,7 +424,8 @@ h6 {
     opacity: 0.25;
 }
 
-.content-section .thumbnail:after {
+
+/*.content-section .thumbnail:after {
     font-family: 'FontAwesome';
     content: '\f121';
     color: #FFF;
@@ -424,22 +447,32 @@ h6 {
     border-radius: 50%;
     background: transparent;
     border: 3px solid transparent;
-}
+}*/
 
-.content-section .thumbnail:hover:after {
+
+/*.content-section .thumbnail:hover:after {
     top: 25%;
     opacity: 1;
     color: #FFFFFF;
     background: #AF6204;
     border: 3px solid #FFFFFF;
+}*/
+
+#management > div > div.row.text-center > div > ul > li{
+  font-size: 20px;
 }
 
+ul {
+    list-style:none;
+    padding-left:0;
+}​
 
 /*--- CONTACT ---*/
 
 #contact {
-/*    background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
-*/    background-size: cover;
+    /*    background: url('https://s18.postimg.org/z7eckrogp/seagulls_984529_1920.jpg') no-repeat top center fixed;
+*/
+    background-size: cover;
 }
 
 .social-cont {
@@ -520,10 +553,11 @@ a.btn-default:hover:after {
 
 legend {
     font-size: 30px;
+    color: #1a1a1a;
 }
 
 address h3 {
-    line-height: 0em;
+    line-height: 0.5em;
     font-size: 20px;
 }
 
@@ -531,21 +565,28 @@ address h3 {
 /*google maps*/
 
 #map {
-    height: 500px;
+    height: 400px;
     width: 100%;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 footer {
     text-align: center;
     color: #1a1a1a;
     font-family: 'Avant Garde', serif;
-    background: #C9CED2;
+    background: #5E94C3;
     /*    padding-top: 1%;*/
     padding-bottom: 1%;
-    font-size: 75%;
+    font-size: 100%;
 }
 
+
 /*category backgrounds*/
-#management, #productionQuality, #contact{
-  background-color: grey;
+
+#management,
+#productionQuality,
+#contact {
+    background-color: #5E94C3;
 }
