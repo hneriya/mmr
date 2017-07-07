@@ -66,9 +66,8 @@ h6 {
 
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     .content-section {
-      padding-top: 0px;
-      min-height: 85vh;
-
+        padding-top: 0px;
+        min-height: 85vh;
     }
     .content-section h1 {
         font-size: 34px;
@@ -100,7 +99,6 @@ h6 {
 
 /*@media screen and (min-width: 1200px) {*/
 
-
 @media only screen and (max-width: 1200px) and (min-width: 993px) {
     .content-section {
         padding-top: 160px;
@@ -126,6 +124,7 @@ h6 {
         margin-bottom: 35px;
     }
 }
+
 
 /*--- NAVBAR ---*/
 
@@ -202,10 +201,10 @@ h6 {
         background-color: transparent;
         color: #E64B36;
     }
-
     /*hanan added*/
-    .navbar-fixed-bottom, .navbar-fixed-top{
-      position: static;
+    .navbar-fixed-bottom,
+    .navbar-fixed-top {
+        position: static;
     }
 }
 
@@ -216,9 +215,9 @@ h6 {
     .navbar-default {
         height: 120px;
     }
-    .navbar-right{
-      margin-right: 0px;
-      font-size: 15px;
+    .navbar-right {
+        margin-right: 0px;
+        font-size: 15px;
     }
     .navbar-header .navbar-brand {
         height: 80px;
@@ -234,9 +233,9 @@ h6 {
     .navbar-default {
         height: 120px;
     }
-    .navbar-right{
-      margin-right: 0px;
-      font-size: 25px;
+    .navbar-right {
+        margin-right: 0px;
+        font-size: 25px;
     }
     .navbar-header .navbar-brand {
         height: 80px;
@@ -247,6 +246,7 @@ h6 {
         padding: 10px 25px 9px 0;
     }
 }
+
 
 /*--- HOME ---*/
 
@@ -296,11 +296,21 @@ h6 {
 @media only screen and (max-width: 767px) and (min-width: 320px) {
     #home h1 {
         font-size: 55px;
-      line-height: 60px;
-      margin-top: 110px;
+        line-height: 60px;
+        margin-top: 110px;
     }
     #home h5 {
         font-size: 19px;
+    }
+            legend {
+        font-size: 20px;
+    }
+    address h3 {
+        font-size: 15px;
+    }
+    #map {
+        height: 75px;
+        width: 100%;
     }
 }
 
@@ -314,6 +324,16 @@ h6 {
     }
     #home h5 {
         font-size: 21px;
+    }
+        legend {
+        font-size: 20px;
+    }
+    address h3 {
+        font-size: 15px;
+    }
+    #map {
+        height: 325px;
+        width: 100%;
     }
 }
 
@@ -329,6 +349,16 @@ h6 {
     #home h5 {
         font-size: 24px;
     }
+    legend {
+        font-size: 20px;
+    }
+    address h3 {
+        font-size: 15px;
+    }
+    #map {
+        height: 350px;
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 1800px) and (min-width: 1201px) {
@@ -340,6 +370,7 @@ h6 {
         font-size: 24px;
     }
 }
+
 
 /*--- PORTFOLIO ---*/
 
@@ -485,4 +516,31 @@ a.btn-default:focus {
 
 a.btn-default:hover:after {
     width: 100%;
+}
+
+legend {
+    font-size: 30px;
+}
+
+address h3 {
+    line-height: 0em;
+    font-size: 20px;
+}
+
+
+/*google maps*/
+
+#map {
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    color: #1a1a1a;
+    font-family: 'Avant Garde', serif;
+    background: #C9CED2;
+    /*    padding-top: 1%;*/
+    padding-bottom: 1%;
+    font-size: 75%;
 }
