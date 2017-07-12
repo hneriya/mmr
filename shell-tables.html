@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<!-- https://codepen.io/lveent/pen/gaZyaq -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>moked</title>
+    <link href='https://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700,400italic|Montserrat:400,700|Cardo:400italic|Advent+Pro:100' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js      -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--     <link rel="stylesheet" type="text/css" href="media-queries.css"> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoCBjQu06Dt5yGA4yDi-WaqwEpR4ZIZJg&callback=initMap">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <!-- NAVIGATION -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <!--    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button> -->
+                    <a class="navbar-brand scroll" href="#home">Moked Ltd.</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#about" class="scroll">About</a></li>
+                        <li><a href="#management" class="scroll">Management</a></li>
+                        <li><a href="#customerList" class="scroll">Customer List</a></li>
+                        <li><a href="#productionQuality" class="scroll">Production & Quality</a></li>
+                        <li><a href="#products" class="scroll">Products</a></li>
+                        <li><a href="#contact" class="scroll">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- HOME -->
+        <div id="home" class="content-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <h1>MOKED Precision Instruments Ltd.</h1>
+                        <h5>Israel's leading subcontractor for aerospace parts.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+<!--****************************************************************************************  -->
+
+        <!-- productionQuality -->
+        <div id="productionQuality" class="content-section">
+            <div class="container">
+                <!--                 <div class="row">
+                    <div class="col-xs-12">
+                        <h1>Production & Quality</h1>
+                        <h5>Equipment list to be updated here </h5>
+                    </div>
+                </div> -->
+                <div class="row">
+                    <tr>
+                        <td> Turning Centers - Dia. 400 X 1000:
+                            <table class="table table-striped table-bordered">
+                                <tr>
+                                    <td width="80%">
+                                        <p> Mori-Seiki SL-3 : 2 Machines</p>
+                                    </td>
+                                    <td rowspan="8">
+                                        <div align="center">8</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Mori-Seiki SL-25 : 1 Machine</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Mori-Seiki SL-2 : 1 Machine</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Mori-Seiki SL-1 : 1 Machine</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p>Mori-Seiki NL2000Y500: 1 Machine <strong>NEW</strong> </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Mazak QT10 : 1 Machine</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <p> Takisawa-TS20Y : 1 Machine</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" >
+                            <hr noshade> </td>
+                    </tr>
+                    <tr>
+                        <td> 4 AXIS Horizontal Machining CentersDim. 400 x 500 x 600mm:
+                            <table class="table table-striped table-bordered">
+                                <tr>
+                                    <td width="80%"> Mazak H400N: 1 Machine</td>
+                                    <td rowspan="4">
+                                        <div align="center">4</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Okuma MX40HA: 1 Machine</td>
+                                </tr>
+                                <tr>
+                                    <td> Mazak FH-4800 : 1 Machine</td>
+                                </tr>
+                                <tr>
+                                    <td> Okuma MA40HA: 1 Machine</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  colspan="3">
+                            <hr noshade> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>4 AXIS Vertical Machining Centers Dim 400 x 500 x 700mm:</p>
+                            <table class="table table-striped table-bordered">
+                                <tr>
+                                    <td width="80%"> Mazak 414V: 1 Machine</td>
+                                    <td rowspan="5">
+                                        <div align="center">4</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Mazak AJV18N: 1 Machine</td>
+                                </tr>
+                                <tr>
+                                    <td> Mazak VTC-200B: 1 Machine</td>
+                                </tr>
+                                <tr>
+                                    <td> Kondia: 1 Machines</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            <hr noshade> </td>
+                    </tr>
+                    <tr>
+                        <td>
+                         <p>Optical JIG Borer 200 x 400 mm: SIP</p>
+
+                            <table class="table table-striped table-bordered">
+                                <tr>
+                                    <td width="80%"> Conventional Milling Machines: Bridgeport, Makino, etc.
+                                    </td>
+                                    <td>
+                                        <div align="center">6</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Conventional Lathes DIA 100-400 x 1000mm:Schaublin, Hemburg
+                                    </td>
+                                    <td>
+                                        <div align="center">4</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Honing - DIA 50 mm : Sunnen</td>
+                                    <td>
+                                        <div align="center">1</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Drilling Machines DIA 1-160mm: Aciera</td>
+                                    <td>
+                                        <div align="center">5</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Sawing Machine : Amada</td>
+                                    <td>
+                                        <div align="center">1</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" >
+                            <hr noshade>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >QC Equipment list</td>
+                        <td>
+                            <table class="table table-striped table-bordered">
+                                <tr>
+                                    <td width="80%"> Manual CMM Station: Mitutoyo: 1Machines </td>
+                                    <td rowspan="3">
+                                        <div align="center">3</div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td> Automated CMM Station: Mitutoyo: 2Machines 1 <strong>NEW</strong> </td>
+                                </tr>
+                                <tr>
+                                    <td> Digital Height Gage: Tesa 1Machines </td>
+                                </tr>
+                            </table>
+                            <br> </td>
+                    </tr>
+
+<!--****************************************************************************************  -->
+                   
+                    
+                            <h1>Computer Systems </h1>
+                            <ul>
+                                <li> ERP System - 6 Working Station</li>
+                                <li> CAD/CAM-1, Cad Tech-1, Cimatron Ver.11.11-1</li>
+                                <li> Computerized SPC Station: Mitutoyo- 1</li>
+                            </ul>
+
+                        <h1 >Quality Assurance</h1>
+                        <ul>
+                            <li>Moked's quality assurance program is ISO 9002, AS 9100 and ISO 14001 approved.</li>
+                            <li> Moked specially trained personnel carry out the QC in a well-equipped inspection room, which includes three computerized…</li>
+                        </ul>
+
+                        <h1>Production</h1>
+                        <ul>
+                            <li>Moked's production engineering staff uses an advanced CAD-CAM system.</li>
+                            <li> The 30 skilled production workers operate a wide range of modern equipment including 7 CNC machining centers and 8 CNC turning centers in a 1200 square meters production facility.</li>
+                            <li>Additional production processes performed by Moked's group of Sub-Tiers:</li>
+                            <ul>
+                                <li> Grinding</li>
+                                <li> Lapping</li>
+                                <li> EDM &amp; Wire Cutting</li>
+                            </ul>
+                            <li> Also: </li>
+                            <ul>
+                                <li> Stamping</li>
+                                <li> Forming</li>
+                                <li> Welding &amp; Brazing.</li>
+                            </ul>
+                        </ul>
+
+                        <h1 >Supplementary Process </h1>
+                            <ul>
+                                <li>Aluminum Coating: Chemical Conversion and all kinds of Anodizing</li>
+                                <li> Stainless Steel: Cleaning &amp; Passivation</li>
+                                <li> All types of painting including Dry Lubrication
+                                    <br>
+                                    <br> Other coatings: </li>
+                                <li> Electroless Nickel</li>
+                                <li> Silver coating</li>
+                                <li> Cadmium coating</li>
+                                <li>Sand Blast &amp; Shot Peening</li>
+                                <li> Heat Treatments &amp; Nitriding</li>
+                                <li> FPI,MPI &amp; Radiographic Inspection</li>
+                            </ul>
+                            <h3>All of the a/m processes are approved by Moked's customers to aerospace standards.</h3>
+                </div>
+            </div>
+
+
+<!--****************************************************************************************  -->
+            <!-- CONTACT -->
+            <div id="contact" class="content-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 ">
+                            <form>
+                                <legend><span class="glyphicon glyphicon-globe"></span> Our office:</legend>
+                                <address>
+                                    <h3>Moked Ltd.</h3>
+                                    <h3> 27 Halutzei Hataasia Str.</h3>
+                                    <h3>P.O.B 10173</h3>
+                                    <h3>Haifa Bay, Israel 26111</h3>
+                                    <br>
+                                    <abbr title="Phone">
+                                    </abbr>
+                                    <h3 href="tel:+97248721846"> 972-4-8721846</h3>
+                                    <!-- <h3>Fax.: 972-4-8721846</h3> -->
+                                    <h3 href="mailto:#">contact@mokedltd.com</h3>
+                                </address>
+                            </form>
+                        </div>
+                        <div class="hidden-xs hidden-sm col-md-2 col-lg-2"></div>
+                        <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 ">
+                            <div id="map"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Copyright ©2003 MOKED Precision Instruments Ltd. All rights reserved.</p>
+            </footer>
+        </div>
+</body>
+
+</html>

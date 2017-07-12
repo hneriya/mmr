@@ -134,27 +134,24 @@
     }
     
     @media screen and (min-width: 1801px) {
-        .navbar-default{
+        .navbar-default {
             height: 95px !important;
             width: 100%;
         }
-
         .navbar-default .navbar-nav {
             width: 80% !important;
             font-size: 24px;
             padding-top: 30px;
         }
-        .navbar-header{
+        .navbar-header {
             padding-top: 20px;
         }
-        .navbar-header .navbar-brand{
-        font-size: 50px !important;
-
+        .navbar-header .navbar-brand {
+            font-size: 50px !important;
         }
-
-    #home {
-    margin-top: 95px;
-    }
+        #home {
+            margin-top: 95px;
+        }
     }
     /*--- NAVBAR ---*/
     
@@ -164,8 +161,10 @@
         border-bottom-color: #DFDFDF;
         height: 60px;
         margin-bottom: 0;
-/*        max-width: 1800px;
-*/    }
+
+        /*        max-width: 1800px;
+*/
+    }
     
     .navbar-header .navbar-toggle {
         margin-top: 12px;
@@ -178,12 +177,13 @@
         font-size: 36px;
         line-height: 0px;
         /*    font-weight: 700;*/
-        color: #111;
+        color: #5E94C3;
         white-space: nowrap;
     }
     
     .navbar-default .navbar-brand:focus {
-        color: #111;
+        color: black;
+
     }
     
     .navbar-default .navbar-nav {
@@ -269,7 +269,7 @@
         .navbar-header .navbar-brand {
             height: 80px;
             padding: 45px 0 0 15px;
-            font-size: 48px;
+            font-size: 65px;
         }
         .navbar-default .navbar-nav>li>a {
             padding: 10px 25px 9px 0;
@@ -396,12 +396,13 @@
             min-height: 100vh;
         }
         #home h1 {
-            font-size: 142px;
-            line-height: 124px;
+            font-size: 100px;
+            line-height: 100px;
             margin-top: 25%;
         }
         #home h5 {
-            font-size: 40px;
+            font-size: 44px;
+            font-weight: 600;
         }
     }
     /*--- PORTFOLIO ---*/
@@ -477,7 +478,16 @@
         padding-left: 0;
     }
     
-    ​
+
+    .table>tbody>tr>td,
+    .table>tbody>tr>th,
+    .table>tfoot>tr>td,
+    .table>tfoot>tr>th,
+    .table>thead>tr>td,
+    .table>thead>tr>th {
+        vertical-align: middle;
+        border: 2px solid #ddd;
+    }
     /*--- CONTACT ---*/
     
     #contact {
@@ -489,8 +499,7 @@
     .social-cont {
         max-width: 400px;
     }
-    
-    a.btn-default {
+    /*    a.btn-default {
         height: 44px;
         border-radius: 0;
         border: 0;
@@ -560,11 +569,12 @@
     
     a.btn-default:hover:after {
         width: 100%;
-    }
+    }*/
     
     legend {
         font-size: 30px;
         color: #1a1a1a;
+        margin-top: 5%;
     }
     
     address h3 {
