@@ -416,6 +416,7 @@
     
     .content-section .thumbnail * {
         transition: all .25s;
+        max-width: 250px;
     }
     
     .content-section .thumbnail h4 {
